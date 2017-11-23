@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.caner.bct.RegisterActivity">
+
+    <EditText
+        android:id="@+id/etUsernameR"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etName" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAge" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@+id/etEmailP"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/bRegister"
+        android:layout_width="368dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:text="Register"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPasswordConfirm" />
+
+    <EditText
+        android:id="@+id/etEmailP"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUsernameR" />
+
+    <EditText
+        android:id="@+id/etPasswordConfirm"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+</android.support.constraint.ConstraintLayout>
